@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una pequeña historia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="theater">
+
+        <div class="stage-light left-light"></div>
+        <div class="stage-light right-light"></div>
+
+        <!-- Escenas -->
+        <div class="scenes">
+            <div class="scene" id="scene1">
+                <div class="sprite bike"></div>
+            </div>
+            <div class="scene" id="scene2">
+                <div class="sprite boy" id="boy"></div>
+            </div>
+            <div class="scene" id="scene3">
+                    <p class="message" id="message">
+                        En la noche que me quieras<br>
+                        no habrá más que armonía.<br>
+                        Será clara la aurora<br>
+                        y alegre el manantial.
+                    </p>
+            </div>
+            <div class="scene" id="scene4">
+                <div class="ask" id="ask">
+                    <p class="ask-text" id="askText">
+                        ¿Quieres quedarte conmigo este fin de semana?<br>
+                        <span class="ask-small">(Tu ropa no está invitada)</span><br>
+                        <span class="ask-small">Todo pago.</span>
+                    </p>
+                    <div class="answers" id="answers">
+                        <button class="yes-btn" id="yesBtn">Sí</button>
+                        <button class="no-btn" id="noBtn">No</button>
+                    </div>
+                    <p class="ask-thanks" id="askThanks">Sabía que dirías que sí ♥</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Telón -->
+        <div class="curtain curtain-left"></div>
+        <div class="curtain curtain-right"></div>
+
+        <!-- Portada -->
+        <section class="stage">
+            <div class="title-container">
+                <p class="small-text">UNA PEQUEÑA HISTORIA</p>
+                <h1>Para dos personas</h1>
+                <p class="subtitle">
+                    y todos esos pequeños momentos
+                    que terminaron convirtiéndose en algo más.
+                </p>
+                <button id="startButton">Comenzar</button>
+            </div>
+        </section>
+
+        <div class="footer-text" id="footer">
+            <span>Acto I</span><span>•</span><span id="actName">El comienzo</span>
+        </div>
+
+        <button class="replay" id="replay">Repetir</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
